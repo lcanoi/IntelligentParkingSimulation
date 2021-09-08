@@ -9,6 +9,8 @@
 
 (ES) En este repositorio se puede encontrar la implementación en Unity de dicha simulación
 
+[![Simulation Example](https://img.youtube.com/vi/HsfIasC6ylg/0.jpg)](https://www.youtube.com/watch?v=HsfIasC6ylg)
+
 ## Tools
 (EN) For the creation of this project, the tools that were mainly used were:
 + NetLogo: for initial simulation and algorithm testing (multi-agent area).
