@@ -19,6 +19,8 @@ namespace simulation
         public MinMaxSlider MinMaxTime;
         public Button btnRunOnce;
         public Material btnMaterial;
+        public GameObject pauseBtn;
+        public GameObject playBtn;
 
         private int redCarAmount;
         private int blueCarAmount;
@@ -65,6 +67,9 @@ namespace simulation
 
                 btnRunOnce.image.material = btnMaterial;
                 btnRunOnce.interactable = true;
+
+                pauseBtn.SetActive(false);
+                playBtn.SetActive(false);
             }
 		}
 

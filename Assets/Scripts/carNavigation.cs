@@ -196,11 +196,11 @@ namespace simulation
 
             while ((transform.position.x != targetPoint.x) || (transform.position.z != targetPoint.z))
             {
-                if (!stop)
-                {
+                //if (!stop)
+                //{
                     transform.position = Vector3.MoveTowards(transform.position, targetPoint, speed * 0.6f * Time.deltaTime);
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRot, 60f * Time.deltaTime);
-                }
+                //}
                 yield return null;
             }
 
