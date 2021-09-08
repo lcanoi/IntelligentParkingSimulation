@@ -22,6 +22,6 @@
 + Unity: para el desarrollo del proyecto final (área de multiagentes y Gráficas).
 
 ## Resources
-+ Bézier Path Simulator: Para la generación de los caminos que seguirán los carros para transitar por la calle y por el estacionamiento. https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082
++ For the path and road generation: Bézier Path Simulator. https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082
 + For the MinMax Slider: brogan89. (2021, May 23): Min Max Slider UI Component for Unity. https://github.com/brogan89/MinMaxSlider
 + For the Car 3D Model: Standard Assets (for Unity 2018.4). Vehicles: Car. https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351
