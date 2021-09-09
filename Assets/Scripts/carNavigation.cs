@@ -16,7 +16,7 @@ namespace simulation
         private sensorSystem sensors;
         public GameObject parkSpot;
         private bool hasSpot;
-
+        
         private dangerZone dangerZoneU;
         private dangerZone dangerZoneP;
 
@@ -27,6 +27,8 @@ namespace simulation
         public int spawnPoint = 0;
         [HideInInspector]
         public string color;
+
+        public float parkDuration;
 
         public bool running;
         public bool turning;
@@ -214,7 +216,8 @@ namespace simulation
         // stays parked for a random amount of time, then starts the process of going out
         private IEnumerator parked()
         {
-            float parkDuration = Random.Range(5f, 15f);
+            // for tests
+            // parkDuration = 3f;
             yield return new WaitForSeconds(parkDuration);
             goingOut = true;
             StartCoroutine(checkCarsBehind());

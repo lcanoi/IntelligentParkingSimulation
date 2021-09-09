@@ -17,6 +17,7 @@ namespace simulation
         public TMP_InputField redCars;
         public TMP_InputField blueCars;
         public MinMaxSlider MinMaxTime;
+        public MinMaxSlider ParkedDuration;
         public Button btnRunOnce;
         public Material btnMaterial;
         public GameObject pauseBtn;
@@ -142,6 +143,7 @@ namespace simulation
             GameObject car_R = Instantiate(redCarPrefab);
             car_R.GetComponent<carNavigation>().spawnPoint = point;
             car_R.GetComponent<carNavigation>().color = "red";
+            car_R.GetComponent<carNavigation>().parkDuration = Random.Range(ParkedDuration.minValue, ParkedDuration.maxValue);
             car_R.transform.parent = carsHolder.transform;
         }
 
@@ -151,6 +153,7 @@ namespace simulation
             GameObject car_B = Instantiate(blueCarPrefab);
             car_B.GetComponent<carNavigation>().spawnPoint = point;
             car_B.GetComponent<carNavigation>().color = "blue";
+            car_B.GetComponent<carNavigation>().parkDuration = Random.Range(ParkedDuration.minValue, ParkedDuration.maxValue);
             car_B.transform.parent = carsHolder.transform;
         }
     }
