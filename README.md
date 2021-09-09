@@ -9,6 +9,9 @@
 
 (ES) En este repositorio se puede encontrar la implementación en Unity de dicha simulación
 
+### Example of the simulation:
+[![Simulation Example](https://img.youtube.com/vi/HsfIasC6ylg/0.jpg)](https://www.youtube.com/watch?v=HsfIasC6ylg)
+
 ## Tools
 (EN) For the creation of this project, the tools that were mainly used were:
 + NetLogo: for initial simulation and algorithm testing (multi-agent area).
@@ -17,3 +20,8 @@
 (ES) Para la creación de este proyecto, las herramientas que se usaron principalmente fueron:
 + NetLogo: para la simulación inicial y prueba de algoritmos (área de multiagentes). 
 + Unity: para el desarrollo del proyecto final (área de multiagentes y Gráficas).
+
+## Resources
++ For the path and road generation: Bézier Path Simulator. https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082
++ For the MinMax Slider: brogan89. (2021, May 23): Min Max Slider UI Component for Unity. https://github.com/brogan89/MinMaxSlider
++ For the Car 3D Model: Standard Assets (for Unity 2018.4). Vehicles: Car. https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351
