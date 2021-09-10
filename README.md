@@ -4,13 +4,13 @@
 
 (ES) MySpot es el resultado de la solución creada para el reto de la clase de Modelación de sistemas multiagentes con gráficas computacionales. Este brinda una simulación de multiagentes en el cual se da una propuesta de un sistema que ayude a mejorar el tiempo de espera al momento de buscar un cajón de estacionamiento en una plaza.
 
+## Example of the simulation:
+[![Simulation Example](https://img.youtube.com/vi/YWoAGjl28zU/0.jpg)](https://www.youtube.com/watch?v=YWoAGjl28zU)
+
 ## Contents
 (EN) In this repository you can find the Unity implementation of said simulation
 
 (ES) En este repositorio se puede encontrar la implementación en Unity de dicha simulación
-
-### Example of the simulation:
-[![Simulation Example](https://img.youtube.com/vi/HsfIasC6ylg/0.jpg)](https://www.youtube.com/watch?v=HsfIasC6ylg)
 
 ## Tools
 (EN) For the creation of this project, the tools that were mainly used were:
