@@ -1,8 +1,8 @@
 # MySpot
 ## Introduction
-(EN) MySpot is the result of the solution created for the project of the class of Modeling of multiagent systems with computer graphics. This brings a simulation of multiagents in which a proposal of a system is given that helps to improve the waiting time when looking for a parking space in a plaza.
+(EN) MySpot is the result of the solution created for a  Modeling of multiagent systems with computer graphics project. This brings a simulation of multiagents in which an intelligent system helps to improve the waiting time when looking for a parking space in a plaza.
 
-(ES) MySpot es el resultado de la solución creada para el reto de la clase de Modelación de sistemas multiagentes con gráficas computacionales. Este brinda una simulación de multiagentes en el cual se da una propuesta de un sistema que ayude a mejorar el tiempo de espera al momento de buscar un cajón de estacionamiento en una plaza.
+(ES) MySpot es el resultado de la solución creada para un reto de Modelación de sistemas multiagentes con gráficas computacionales. Este brinda una simulación de multiagentes en el cual un sistema inteligente ayuda a mejorar el tiempo de espera al momento de buscar un cajón de estacionamiento en una plaza.
 
 ## Example of the simulation:
 [![Simulation Example](https://img.youtube.com/vi/YWoAGjl28zU/0.jpg)](https://www.youtube.com/watch?v=YWoAGjl28zU)
